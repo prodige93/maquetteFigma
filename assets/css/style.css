@@ -12,11 +12,13 @@ body {
 }
 .nav-link.active, .nav-link:hover{
     color: var(--rose);
+    width: auto;
 }
 h1{
     color: var(--blanc);
     font-size: 64px;
     line-height: 92px;
+    margin-top: 80px;
 }
 p{
     color: var(--gris);
@@ -44,17 +46,24 @@ u{
     color: var(--blanc);
     margin-bottom: 5px;
     font-size: 32px;
+    width: auto;
+    height: auto;
+    max-width: 270px;
+    max-height: 200px;
+    vertical-align: middle;
 }
 .cta{
     margin-top: 10px;
     margin-bottom: 80px;
     color: var(--gris);
 }
-.col{
-    margin-right: 10px;
+.col-4{
+    flex: 0 0 auto;
+    width: auto;    
 }
-
-
+svg{
+    margin-right: 265px;
+}
 
 
 
@@ -66,6 +75,10 @@ h2 {
     color: var(--blanc);
     font-size: 42px;
     line-height: 92px;
+    margin-top: 100px;
     text-align: center;
+    margin-bottom: 150px;
 }
+
+
 
