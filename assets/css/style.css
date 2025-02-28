@@ -1,0 +1,28 @@
+:root{
+    --rose:#FF3392;
+    --blanc: #FFF;
+}
+body {
+    background-color: #1A1A23;
+}
+.nav-link{
+    color: var(--blanc);
+}
+.nav-link.active, .nav-link:hover{
+    color: var(--rose);
+}
+h1{
+    color: var(--blanc);
+    font-size: 64px;
+    line-height: 92px;
+}
+u{
+    color: var(--rose);
+}
+.cta-nft{
+    background-color: var(--rose);
+    padding: 10px 16px 10px 16px;
+    border-radius: 100px;
+    color: var(--blanc);
+    margin-right: 15px;
+}
